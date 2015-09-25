@@ -77,6 +77,7 @@ Vagrant.configure(2) do |config|
       recipe[git]
       recipe[yum-epel]
       recipe[nginx]
+      recipe[php]
       recipe[php-env]
     ]
   end
