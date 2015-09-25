@@ -79,6 +79,7 @@ Vagrant.configure(2) do |config|
       recipe[nginx]
       recipe[php]
       recipe[php-env]
+      recipe[fuelphp]
     ]
   end
 
