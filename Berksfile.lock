@@ -3,11 +3,13 @@ DEPENDENCIES
     path: site-cookbooks/nginx
   php-env
     path: site-cookbooks/php-env
+  vim
   yum-epel
 
 GRAPH
   nginx (0.1.0)
   php-env (0.1.0)
+  vim (1.1.4)
   yum (3.7.1)
   yum-epel (0.6.3)
     yum (~> 3.2)

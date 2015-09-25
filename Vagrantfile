@@ -73,6 +73,7 @@ Vagrant.configure(2) do |config|
     }
 
     chef.run_list = %w[
+      recipe[vim]
       recipe[yum-epel]
       recipe[nginx]
       recipe[php-env]
